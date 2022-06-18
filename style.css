@@ -4,11 +4,8 @@ html {
 
 body{
   
- color: white;
 
- font-family: 'Sacramento', cursive;
 
- font-size: 3em;
   height:100%;
   margin:0;
   background-color:white;
@@ -17,5 +14,61 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   }
+
+.front-title h1 {
+
+    
+
+	margin-left:10px;
+
+	color: white;
+
+	text-shadow: 2px 2px 4px #000000;
+
+	font-size: 5em;
+
+	font-family: 'Sacramento', cursive;
+
+	
+
+	}
+
+	
+
+.whatsapp-link {
+
+			position: fixed;
+
+			width: 60px;
+
+			height: 60px;
+
+			bottom: 40px;
+
+			right: 40px;
+
+			background-color: #25d366;
+
+			color: #fff;
+
+			border-radius: 50px;
+
+			text-align: center;
+
+			font-size: 30px;
+
+			box-shadow: 1px 1px 2px #888;
+
+			z-index: 1000;
+
+		}
+
+ 
+
+		.fa-whatsapp {
+
+			margin-top: 16px;
+
+		}
 
 
