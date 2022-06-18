@@ -3,7 +3,12 @@ html {
 }
 
 body{
-  color: white;
+  
+ color: white;
+
+ font-family: 'Sacramento', cursive;
+
+ font-size: 25px;
   height:100%;
   margin:0;
   background-color:white;
@@ -12,8 +17,5 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   }
-body h1 {
- color: white;
- font-family: 'Sacramento', cursive;
- font-size: 25px;
- }
+
+
