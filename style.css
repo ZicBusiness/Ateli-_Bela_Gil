@@ -118,8 +118,8 @@ body{
 }
 
 .navbar a:hover {
-  background-color: pink;
-  color: rgba(255,124,198,1);
+  background: pink;
+  color: pink;
 }
 
 
