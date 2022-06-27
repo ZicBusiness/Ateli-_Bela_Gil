@@ -53,7 +53,12 @@ body{
         overflow:hidden; 
         position: relative; 
         opacity: 0.8;
-	}
+        z-index: -1;
+}
+	
+	
+	
+	
 
 .navbar {
   overflow: hidden;
