@@ -75,8 +75,8 @@ header {
 
 .whatsapp-link {
 			position: fixed;
-			width: 5vw;
-			height: 5vw;
+			width: 8vw;
+			height: 8vw;
 			bottom: 40px;
 			right: 40px;
 			background-color: #25d366;
@@ -133,6 +133,7 @@ header {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: bold;
     font-size: 4vw;
+    text-align: justify;
     text-justify: auto;
     
     
