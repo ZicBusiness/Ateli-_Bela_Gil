@@ -16,8 +16,8 @@ header {
     width: 100%;
     height: 22vw;
     background: white;
-    background-image:url('https://raw.githubusercontent.com/ZicBusiness/Atelie_Bela_Gil/main/images/Logo%20nova%202023.png');
-    background-size: 100%;
+    /*background-image:url('https://raw.githubusercontent.com/ZicBusiness/Atelie_Bela_Gil/main/images/Logo%20nova%202023.png');*/
+    /*background-size: 100%;*/
     position: fixed;
     top: 0;
 }
