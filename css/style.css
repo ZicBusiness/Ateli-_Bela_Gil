@@ -144,8 +144,8 @@ margin-left: -7.5vw;
 }
 
 .product img {
-  width: 250px;
-  height: 250px;
+  width: 45vw;
+  height: 45vw;
   object-fit: cover;
   margin-right: 20px;
   border: 5px solid #AAE9E5; /* adiciona uma borda de 2px com a branca */
@@ -160,18 +160,18 @@ margin-left: -7.5vw;
 
 .product-info h2 {
   margin: 0;
-  font-size: 24px;
+  font-size: 4.5vw;
 }
 
 .product-info p {
   margin: 0;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 3vw;
 }
 
 .product-info .price {
   color: #f00;
-  font-size: 24px;
+  font-size: 4vw;
   font-weight: bold;
 }
 
