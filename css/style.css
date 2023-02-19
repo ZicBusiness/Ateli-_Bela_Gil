@@ -86,7 +86,7 @@ main.content::before { /*através deste seletor conseguimos isolar as propriedad
   left: 0;
   width: 100%;
   height:100%;
-  background-image: url("../img/l2023.png");
+  background-image: url("https://raw.githubusercontent.com/ZicBusiness/Atelie_Bela_Gil/main/img/l2023.png");
   background-position: center;
   background-size: 170vw;
   background-attachment: fixed;/* define se o plano de fundo é fixo ou se rola junto com o elemento*/
