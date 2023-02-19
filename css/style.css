@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+header, nav.navbar, .letreiro-container  {
+  position: fixed;
+  z-index: 999; /* valor maior que o do main.content */
+}
+
+header {
+  width: 100%;
+  height: 20vw; /*Aqui ajustamos a altura do Background do header*/
+  background: white;
+  background-size: 100%;
+  top: 0; /*Aqui permitimos que o header fique encostado ao topo da pagina, zerando sua propriedade*/
+}
+
+header h1 {
+  font-family: 'Montserrat Alternates', sans-serif; 
+  color: #FFC0CB;
+  height: 20vw; /*Controla a altura do nome Bela Gil*/
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-size: 15vw;
+}
+
+/*========== Marca Registrada Símbolo	========*/
+header .r {
+  margin: 0;
+  position: relative;
+  font-size: 4vw;
+  line-height: 0;
+  vertical-align: baseline;
+  top: -1.9em;
+}
+
+/*=======NavBar========*/
+
+.navbar {
+  overflow: hidden;
+  background-color: #FFEDA9;
+  position: fixed;
+  top: 16.5vw;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black; /*Cor da fonte dos navegadores*/
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 1.3vw;
+  text-decoration: none;
+  font-size: 2.5vw;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: #FFC0CB;
+}
+
+
+/*=============== Main ========*/
+main.content {
+  position: relative;
+  z-index:1;
+}
+
+main.content::before { /*através deste seletor conseguimos isolar as propriedades do fundo do resto do conteúdo*/
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-image: url("../img/l2023.png");
+  background-position: center;
+  background-size: 170vw;
+  background-attachment: fixed;/* define se o plano de fundo é fixo ou se rola junto com o elemento*/
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 100%; /* permite espaçamento total na altura revelando o Background*/
+  opacity: 0.2;
+  z-index: -1;
+}
+ 
+.content h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin-top: 20.9vw; /*inicio do texto após altura do header e do nav */
+  padding-top: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  font-size: 7vw;
+  color: rgb(255, 192, 203); 
+ 
+ 
+}
+
+.front-image {
+margin-top: -10vw;
+margin-left: -7.5vw;
+  width: 70vw;
+  height: 40vw;
+  position: absolute;
+  opacity: 1.0;
+}
+
+.content p {
+  margin-top: 9vw;
+  margin-right: 5vw;
+  color: black;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  text-align: justify;
+  opacity: 1;
+}
+
+
+/*==========Produto ========*/
+.pg {
+    margin-top:23vw;
+}
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-right: 20px;
+  border: 5px solid #AAE9E5; /* adiciona uma borda de 2px com a branca */
+  border-radius: 20px; /* arredonda as bordas em 10px */
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-info h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.product-info p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.product-info .price {
+  color: #f00;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-info a {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: #EACFFF;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.product-info a:hover {
+  background-color: #AAE9E5;
+}
+
+
+
+/*==========What's App Button========*/
+
+.whatsapp-link {
+  position: fixed;
+  width: 5vw;
+  height: 5vw;
+  bottom: 50px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 3vw;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1;
+}
+
+.whatsapp-link img {
+    margin-top:0.7px;   
+    margin-left:0.8;
+    width:5vw;
+    height:5vw;
+    bottom:40px;
+    right:40px;
+}
+/*==========Letreiro Animation========*/
+.letreiro-container {
+  overflow: hidden; /* esconde o que estiver fora do container */
+  background-color: #FFC0CB;
+  margin-top: 1vw;
+  height:6.5vw;
+  /* position:fixed; */
+  
+}
+
+.letreiro p {
+  color: white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+  font-size: 5vw; 
+  display:inline-block; /* permite que o container se ajuste ao tamanho do texto */ 
+  white-space: nowrap; /* impede quebra de linha no meio da anima*/
+  animation:letreiro-anim 30s linear infinite; /* chama a animação definida abaixo */   
+  animation-delay: 0;
+  width: 100%; /* ajustando a largura */
+  margin: 0 auto; /* centralizando o texto */
+  margin-left: 0;
+  padding-left: 0;
+  padding-top: 0.3vw;
+}
+
+@keyframes letreiro-anim {
+  0% {
+    transform: translateX(100%); /* posiciona o texto no extremo direito */
+  }
+  100% {
+    transform: translateX(-101%); /* desloca o texto para a esquerda */
+  }
+}
+
+.footer {
+  z-index: 2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(135, 199, 241, 0.9);
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: none;
+}
+
+
+
+@media (max-width: 768px) {
+    .whatsapp-link {
+        width: 10vw;
+        height: 10vw;
+        }
+        
+    .whatsapp-link img {
+        width:10vw;
+        height:10vw;
+        }
+  
+
+}
+
+
