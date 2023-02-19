@@ -177,14 +177,14 @@ margin-left: -7.5vw;
 
 .product-info a {
   display: block;
-  width: 200px;
-  height: 50px;
+  width: 30vw;
+  height: 8vw;
   background-color: #EACFFF;
   color: #fff;
   text-align: center;
-  line-height: 50px;
+  line-height: 8vw;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 10vw;
   transition: all 0.3s ease;
 }
 
