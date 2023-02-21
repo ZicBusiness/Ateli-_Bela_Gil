@@ -140,7 +140,7 @@ margin-left: -7.5vw;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 5vw;
 }
 
 .product img {
@@ -159,8 +159,8 @@ margin-left: -7.5vw;
 }
 
 .product-info h2 {
-  margin: 0;
-  font-size: 4.5vw;
+  margin: 0; 
+  font-size: 4vw;
 }
 
 .product-info p {
