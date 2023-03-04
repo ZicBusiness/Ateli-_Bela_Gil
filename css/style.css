@@ -289,8 +289,13 @@ margin-left: -7.5vw;
   }
 
   header h1{
-    font-size: 50px;
+    font-size: 80px;
     top: -39px;
+  }
+
+  header .r {
+    font-size: 50px;
+
   }
 
   .navbar{
