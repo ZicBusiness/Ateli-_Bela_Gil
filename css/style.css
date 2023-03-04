@@ -282,7 +282,7 @@ margin-left: -7.5vw;
 
 }
 
-@media screen and (min-width: 1280){
+@media screen and (min-width: 1280px){
 
   header{
     height: 160px;
