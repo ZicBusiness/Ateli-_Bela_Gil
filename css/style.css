@@ -282,4 +282,31 @@ margin-left: -7.5vw;
 
 }
 
+@media screen and (min-width: 1280){
+
+  header{
+    height: 160px;
+  }
+
+  header h1{
+    font-size: 50px;
+    top: -39px;
+  }
+
+  .navbar{
+    padding: 20px;
+    font-size: 32px;
+  }
+  
+  main.content::before{
+    background-size: 2160px 1280px;
+  }
+
+  .content h1{
+    margin-top: 320px;
+    padding-top: 150px;
+  }
+
+}
+
 
